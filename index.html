@@ -1,1 +1,115 @@
-Hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game with Scales</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Game with Scales</h1>
+    </header>
+
+    <main>
+        <div class="scale-grid"> <!-- Grid for 3x3 layout -->
+            <!-- Scale 1 -->
+            <div class="scale">
+                <h3>Scale 1</h3>
+                <img src="scale.png" alt="Scale 1" class="scale-image"> <!-- Scale image -->
+                <div class="points" id="scale1-points">0</div> <!-- Display total points -->
+                <input type="text" placeholder="Enter your name" id="scale1-name"> <!-- Name input -->
+                <input type="number" placeholder="Points to add" id="scale1-add"> <!-- Points input -->
+                <button onclick="addPoints(1)">Add Points</button> <!-- Button to add points -->
+            </div>
+
+            <!-- Scale 2 -->
+            <div class="scale">
+                <h3>Scale 2</h3>
+                <img src="scale.png" alt="Scale 2" class="scale-image">
+                <div class="points" id="scale2-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale2-name">
+                <input type="number" placeholder="Points to add" id="scale2-add">
+                <button onclick="addPoints(2)">Add Points</button>
+            </div>
+
+            <!-- Continue with the rest of the scales -->
+            <!-- Scale 3 -->
+            <div class="scale">
+                <h3>Scale 3</h3>
+                <img src="scale.png" alt="Scale 3" class="scale-image">
+                <div class="points" id="scale3-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale3-name">
+                <input type="number" placeholder="Points to add" id="scale3-add">
+                <button onclick="addPoints(3)">Add Points</button>
+            </div>
+
+            <!-- Add similar blocks for scales 4-9 -->
+            <!-- Scale 4 -->
+            <div class="scale">
+                <h3>Scale 4</h3>
+                <img src="scale.png" alt="Scale 4" class="scale-image">
+                <div class="points" id="scale4-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale4-name">
+                <input type="number" placeholder="Points to add" id="scale4-add">
+                <button onclick="addPoints(4)">Add Points</button>
+            </div>
+
+            <!-- Continue for scales 5-9 -->
+            <!-- Scale 5 -->
+            <div class="scale">
+                <h3>Scale 5</h3>
+                <img src="scale.png" alt="Scale 5" class="scale-image">
+                <div class="points" id="scale5-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale5-name">
+                <input type="number" placeholder="Points to add" id="scale5-add">
+                <button onclick="addPoints(5)">Add Points</button>
+            </div>
+
+            <!-- Scale 6 -->
+            <div class="scale">
+                <h3>Scale 6</h3>
+                <img src="scale.png" alt="Scale 6" class="scale-image">
+                <div class="points" id="scale6-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale6-name">
+                <input type="number" placeholder="Points to add" id="scale6-add">
+                <button onclick="addPoints(6)">Add Points</button>
+            </div>
+
+            <!-- Scale 7 -->
+            <div class="scale">
+                <h3>Scale 7</h3>
+                <img src="scale.png" alt="Scale 7" class="scale-image">
+                <div class="points" id="scale7-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale7-name">
+                <input type="number" placeholder="Points to add" id="scale7-add">
+                <button onclick="addPoints(7)">Add Points</button>
+            </div>
+
+            <!-- Scale 8 -->
+            <div class="scale">
+                <h3>Scale 8</h3>
+                <img src="scale.png" alt="Scale 8" class="scale-image">
+                <div class="points" id="scale8-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale8-name">
+                <input type="number" placeholder="Points to add" id="scale8-add">
+                <button onclick="addPoints(8)">Add Points</button>
+            </div>
+
+            <!-- Scale 9 -->
+            <div class="scale">
+                <h3>Scale 9</h3>
+                <img src="scale.png" alt="Scale 9" class="scale-image">
+                <div class="points" id="scale9-points">0</div>
+                <input type="text" placeholder="Enter your name" id="scale9-name">
+                <input type="number" placeholder="Points to add" id="scale9-add">
+                <button onclick="addPoints(9)">Add Points</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Game with Scales. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to the JavaScript file -->
+</body>
